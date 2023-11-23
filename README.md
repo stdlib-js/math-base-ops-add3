@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import add3 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-add3@esm/index.mjs';
+import add3 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-add3@v0.1.0-esm/index.mjs';
 ```
 
 #### add3( x, y, z )
@@ -104,7 +104,7 @@ v = add3( NaN, NaN, NaN );
 
 var rand = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
 import filledBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-filled-by@esm/index.mjs';
-import add3 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-add3@esm/index.mjs';
+import add3 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-add3@v0.1.0-esm/index.mjs';
 
 var x = filledBy( 100, rand( -50, 50 ) );
 var y = filledBy( x.length, rand( -50, 50 ) );
